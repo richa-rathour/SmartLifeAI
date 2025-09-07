@@ -1,5 +1,26 @@
-Flask==2.3.3
-Flask-CORS==4.0.0
-langchain==0.0.350
-openai==1.3.7
-python-dotenv==1.0.0
+# Core LangChain ecosystem
+langchain>=0.3.0
+langchain-core>=0.3.66
+langchain-community>=0.3.0
+langchain-text-splitters>=0.3.8
+
+# Integrations
+langchain-openai>=0.3.23
+langchain-aws>=0.2.27
+
+# OpenAI + Google AI
+openai>=1.70.0
+google-genai>=1.14.0
+pipecat-ai>=0.0.71
+
+# LangSmith (required by langchain-core)
+langsmith>=0.3.45
+
+# Utilities
+anyio>=4.8.0
+tenacity>=8.5.0
+packaging>=23.2
+python-dotenv>=1.0.0
+Flask>=2.3.3
+Flask-Cors>=4.0.0
+psycopg2-binary>=2.9.10

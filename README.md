@@ -1,6 +1,6 @@
 # SmartLife AI Backend
 
-A comprehensive Flask-based backend application that combines expense tracking with AI-powered interview preparation using LangChain and OpenAI.
+A comprehensive Python + LangChain / Flask / AI backend application that combines expense tracking with AI-powered interview preparation using LangChain and OpenAI.
 
 ## Features
 

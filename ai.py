@@ -5,8 +5,8 @@ Handles interview preparation using LangChain and OpenAI
 
 import os
 from typing import List, Dict
-from langchain.chat_models import ChatOpenAI
-from langchain.schema import HumanMessage, SystemMessage
+from langchain_community.chat_models import ChatOpenAI
+from langchain_core.messages import HumanMessage, SystemMessage
 from dotenv import load_dotenv
 
 # Load environment variables
