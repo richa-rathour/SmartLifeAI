@@ -7,3 +7,4 @@ Api Testing/
 venv
 __pycache__
 .env
+smartlife.db
